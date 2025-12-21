@@ -1,0 +1,11 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dev-advent"
+version = "0.1.0"
+dependencies = ["textual"]
+
+[project.scripts]
+advent-calendar = "haxmas_day_9_Hasona57.main:main"
