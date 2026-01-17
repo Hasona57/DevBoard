@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "dev-advent"
+name = "DevBoard"
 version = "0.1.0"
 dependencies = ["textual"]
 
